@@ -2,7 +2,7 @@
 
 ## WBS 번호 및 관련 이슈
 
-<!-- develop 대상: Refs #12 / main 대상: Closes #12 -->
+<!-- develop 대상: Closes #12 / main 대상: 필요하면 Refs #12 -->
 
 ## 변경 내용
 
