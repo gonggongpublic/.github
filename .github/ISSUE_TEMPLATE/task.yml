@@ -1,0 +1,23 @@
+name: WBS 작업
+description: WBS의 말단 작업을 GitHub 이슈로 등록합니다.
+title: "[WBS번호] 작업명"
+body:
+  - type: input
+    id: wbs
+    attributes:
+      label: WBS 번호
+      placeholder: "2.3.1"
+    validations:
+      required: true
+  - type: textarea
+    id: work
+    attributes:
+      label: 작업 내용
+    validations:
+      required: true
+  - type: textarea
+    id: acceptance
+    attributes:
+      label: 완료 기준
+    validations:
+      required: true
